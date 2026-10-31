@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Taco Night Invitation</title>
+<title>Tacos Invitation</title>
 <style>
 *{box-sizing:border-box}
 body{margin:0;min-height:100vh;font-family:Arial,Helvetica,sans-serif;color:#fff;background:#130d12}
@@ -29,18 +29,18 @@ button:hover{filter:brightness(1.1)}
 <body>
 <main class="page">
   <section class="invite">
-    <div class="kicker">An invitation you can't refuse… probably</div>
-    <h1>TACO NIGHT!<span>with a little presidential flavor 🌮</span></h1>
-    <p class="subtitle">Good tacos. Great company. Questionable political cameos.<br>Come hungry and bring your best taco attitude.</p>
-    <div class="date">📅 October 31st</div>
-    <p class="question">Will you join me for tacos?</p>
+    <div class="kicker">A great offer that you can't refuse </div>
+    <h1>TACO diner!<span> whatever you want 🌮</span></h1>
+    <p class="subtitle">ALSO,I have a big decition to make . . should a vote for replublicans or democrats ?.<br>l'll take that decition after l eat something..</p>
+    <div class="date">today October 31st</div>
+    <p class="question">you're gonna pay by the way</p>
     <div class="buttons">
       <button id="yes" type="button">YES 🌮</button>
       <button id="maybe" type="button">MAYBE 🤔</button>
     </div>
     <div id="message" aria-live="polite"></div>
     <div class="footer">SENT ME SCREENSHOT 📸
-      <small>Choose wisely. The tacos are counting on you.</small>
+      <small>god bless america and our troops.</small>
     </div>
   </section>
 </main>
@@ -49,10 +49,10 @@ const yes = document.getElementById('yes');
 const maybe = document.getElementById('maybe');
 const message = document.getElementById('message');
 const replies = [
-  "“Maybe” is not a flavor of taco. Try again. 🌮",
-  "The taco committee requests a firm answer.",
+  "“Maybe obama wouldn't be pround of you. Try again. 🌮",
+  "you sure aboud this .",
   "Breaking news: MAYBE button refuses to make a decision.",
-  "Are you afraid of commitment… or salsa?",
+  "Are you afraid of ICE… or salsa?",
   "A taco is waiting for you. Don't let it down. 😭",
   "The president has been informed of your hesitation. 🇺🇸"
 ];
@@ -69,8 +69,8 @@ maybe.addEventListener('click', () => {
   maybe.style.transform = `translate(${Math.random()*100-50}px, ${Math.random()*50-25}px)`;
 });
 yes.addEventListener('click', () => {
-  message.textContent = "LET'S GOOOO! 🎉 You're officially on the taco guest list. Now send me a screenshot! 📸";
-  yes.textContent = "I'M IN! 🌮";
+  message.textContent = "LET'S GOOOO! 🎉 You're officially will pay. Now send me a screenshot! 📸";
+  yes.textContent = "I'M IN! 🌮 DEUCES DOG";
   maybe.style.display = 'none';
 });
 </script>
